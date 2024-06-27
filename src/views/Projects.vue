@@ -10,8 +10,6 @@
             to prepare and deliver all the recipies you can. Try to get the maximum score with your goup of friends!
             (Pending a multiplayer update).
           </div>
-          <h3 class="green">Watch A Trailer</h3>
-          <a href="https:www.youtube.com" target="_blank">On Youtube</a>
           <h3 class="green">Play The Game</h3>
           <a href="/kitchen">On WebGL</a> <br>
           <a href="https://github.com/miguelaarrones/KitchenChaos/releases/download/v0.0.1/KitchenChaos.v0.0.1.zip" target="_blank">Downloading the latest release</a>
@@ -30,8 +28,6 @@
             You have to collect resources to build a base meanwhile you are being attacked by enemies.
             Use your resources to build towers that will defend your base and keep gathering!!
           </div>
-          <h3 class="green">Watch A Trailer</h3>
-          <a href="https:www.youtube.com" target="_blank">On Youtube</a>
           <h3 class="green">Play The Game</h3>
           <a href="/builder">On WebGL</a> <br>
           <a href="https://github.com/miguelaarrones/BuilderDefenderGame/releases/download/v.0.0.2/BuilderDefenderGame-v.0.0.2.rar" target="_blank">Downloading the latest release</a>
@@ -49,8 +45,6 @@
             This game made in Unity is similar to X-COM. You have a team and must clean a level full of enemies.
             Using all your units move forward and plan well your actions. 
           </div>
-          <h3 class="green">Watch A Trailer</h3>
-          <a href="https:www.youtube.com" target="_blank">On Youtube</a>
           <h3 class="green">Play The Game</h3>
           <a href="/strategy">On WebGL</a> <br>
           <a href="https://github.com/miguelaarrones/TurnBasedStrategyGame/releases/download/v.0.0.3/TurnBasedStrategyGame-v.0.0.3.rar" target="_blank">Downloading the latest release</a>
