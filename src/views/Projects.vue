@@ -11,7 +11,7 @@
             (Pending a multiplayer update).
           </div>
           <h3 class="green">Play The Game</h3>
-          <a href="/kitchen">On WebGL</a> <br>
+          <RouterLink to="/kitchen">On WebGL</RouterLink> <br>
           <a href="https://github.com/miguelaarrones/KitchenChaos/releases/download/v0.0.1/KitchenChaos.v0.0.1.zip" target="_blank">Downloading the latest release</a>
           <h3 class="green">Check The Code</h3>
           <a href="https://github.com/miguelaarrones/KitchenChaos" target="_blank">On Github</a>
@@ -29,7 +29,7 @@
             Use your resources to build towers that will defend your base and keep gathering!!
           </div>
           <h3 class="green">Play The Game</h3>
-          <a href="/builder">On WebGL</a> <br>
+          <RouterLink to="/builder">On WebGL</RouterLink> <br>
           <a href="https://github.com/miguelaarrones/BuilderDefenderGame/releases/download/v.0.0.2/BuilderDefenderGame-v.0.0.2.rar" target="_blank">Downloading the latest release</a>
           <h3 class="green">Check The Code</h3>
           <a href="https://github.com/miguelaarrones/BuilderDefenderGame" target="_blank">On Github</a>
@@ -46,7 +46,7 @@
             Using all your units move forward and plan well your actions. 
           </div>
           <h3 class="green">Play The Game</h3>
-          <a href="/strategy">On WebGL</a> <br>
+          <RouterLink to="/strategy">On WebGL</RouterLink> <br>
           <a href="https://github.com/miguelaarrones/TurnBasedStrategyGame/releases/download/v.0.0.3/TurnBasedStrategyGame-v.0.0.3.rar" target="_blank">Downloading the latest release</a>
           <h3 class="green">Check The Code</h3>
           <a href="https://github.com/miguelaarrones/TurnBasedStrategyGame" target="_blank">On Github</a>
