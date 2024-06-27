@@ -1,1 +1,0 @@
-import{_ as e}from"./index.6180116f.js";import{o as t,c as o,b as _}from"./vendor.1125a7ca.js";const a={},c={class:"about"},s=_("h1",null,"This is a contact page",-1),n=[s];function r(i,d){return t(),o("div",c,n)}var p=e(a,[["render",r]]);export{p as default};
