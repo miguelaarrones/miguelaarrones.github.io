@@ -26,6 +26,21 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: () => import('../views/Contact.vue')
+    },
+    {
+      path: '/builder',
+      name: 'builder',
+      component: () => import('../views/BuilderDefenderGame.vue')
+    },
+    {
+      path: '/strategy',
+      name: 'strategy',
+      component: () => import('../views/TurnBasedStrategyGame.vue')
+    },
+    {
+      path: '/kitchen',
+      name: 'kitchen',
+      component: () => import('../views/KitchenChaos.vue')
     }
   ]
 })

@@ -1,5 +1,4 @@
 <template>
-  <router-link to="home" tag="button">X</router-link>
   <div class="skills">
     <div class="content">
       <div>

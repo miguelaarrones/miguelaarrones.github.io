@@ -1,10 +1,8 @@
 <template>
-  <router-link to="home" tag="button">X</router-link>
   <div class="work">
     <div class="content">
-      WiP
       <div>
-        <h2 class="green">FDSA Desarrollo</h2>
+        <h2 class="green"><u>FDSA Desarrollo</u></h2>
         <div>
           <h3 class="green">Description</h3>
           <div>
@@ -12,17 +10,21 @@
           </div>
           <h3 class="green">What I did there?</h3>
           <div>
-            Programming.
+            <ul style="list-style-type:circle;">
+              <li>Write clean, scalable code using .NET programming languages.</li>
+              <li>Test and deploy applications and systems.</li>
+              <li>Revise, update, refactor and debug code.</li>
+              <li>Utilized the latest software development tools, techniques, and approaches.</li>
+            </ul>
           </div>
           <h3 class="green">Their website:</h3>
           <a href="https://www.fdsa.es/en/" target="_blank">FDSA.es</a>
         </div>
       </div>
     </div>
-    <hr style="margin: 10px;">
     <div class="content">
       <div>
-        <h2 class="green">Webbeds</h2>
+        <h2 class="green"><u>Webbeds</u></h2>
         <div>
           <h3 class="green">Description</h3>
           <div>
@@ -30,7 +32,14 @@
           </div>
           <h3 class="green">What I did there?</h3>
           <div>
-            Programming.
+            <ul style="list-style-type:circle;">
+              <li>Write clean, scalable code using .NET programming languages.</li>
+              <li>Test and deploy applications and systems.</li>
+              <li>Revise, update, refactor and debug code.</li>
+              <li>Improve existing software.</li>
+              <li>Utilized the latest software development tools, techniques, and approaches.</li>
+              <li>Analyzed and designed new systems and applications.</li>
+            </ul>
           </div>
           <h3 class="green">Their website:</h3>
           <a href="https://www.webbeds.com" target="_blank">Webbeds.com</a>
@@ -42,17 +51,18 @@
 
 <style>
 @media (min-width: 1024px) {
-  .projects {
+  .work {
     margin-top: 20px;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: baseline;
     width: 100%;
   }
   .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 100%;
+    width: 50%;
   }
   .content div {
     flex-basis: 100%;

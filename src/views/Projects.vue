@@ -1,9 +1,8 @@
 <template>
-  <router-link to="home" tag="button">X</router-link>
   <div class="projects">
     <div class="content">
       <div>
-        <h2 class="green">Kitchen Chaos</h2>
+        <h2 class="green"><u>Kitchen Chaos</u></h2>
         <div>
           <h3 class="green">Description</h3>
           <div>
@@ -13,14 +12,17 @@
           </div>
           <h3 class="green">Watch A Trailer</h3>
           <a href="https:www.youtube.com" target="_blank">On Youtube</a>
-          <h3 class="green">Download The Game</h3>
+          <h3 class="green">Play The Game</h3>
+          <a href="/kitchen">On WebGL</a> <br>
           <a href="https://github.com/miguelaarrones/KitchenChaos/releases/download/v0.0.1/KitchenChaos.v0.0.1.zip" target="_blank">Downloading the latest release</a>
           <h3 class="green">Check The Code</h3>
           <a href="https://github.com/miguelaarrones/KitchenChaos" target="_blank">On Github</a>
         </div>
       </div>
+    </div>
+    <div class="content">
       <div>
-        <h2 class="green">Builder Defender</h2>
+        <h2 class="green"><u>Builder Defender</u></h2>
         <div>
           <h3 class="green">Description</h3>
           <div>
@@ -30,14 +32,17 @@
           </div>
           <h3 class="green">Watch A Trailer</h3>
           <a href="https:www.youtube.com" target="_blank">On Youtube</a>
-          <h3 class="green">Download The Game</h3>
+          <h3 class="green">Play The Game</h3>
+          <a href="/builder">On WebGL</a> <br>
           <a href="https://github.com/miguelaarrones/BuilderDefenderGame/releases/download/v.0.0.2/BuilderDefenderGame-v.0.0.2.rar" target="_blank">Downloading the latest release</a>
           <h3 class="green">Check The Code</h3>
           <a href="https://github.com/miguelaarrones/BuilderDefenderGame" target="_blank">On Github</a>
         </div>
       </div>
+    </div>
+    <div class="content">
       <div>
-        <h2 class="green">Turn-based Strategy</h2>
+        <h2 class="green"><u>Turn-based Strategy</u></h2>
         <div>
           <h3 class="green">Description</h3>
           <div>
@@ -46,13 +51,17 @@
           </div>
           <h3 class="green">Watch A Trailer</h3>
           <a href="https:www.youtube.com" target="_blank">On Youtube</a>
-          <h3 class="green">Download The Game</h3>
-          <a href="https://veshat.itch.io/" target="_blank">Downloading the latest release</a>
+          <h3 class="green">Play The Game</h3>
+          <a href="/strategy">On WebGL</a> <br>
+          <a href="https://github.com/miguelaarrones/TurnBasedStrategyGame/releases/download/v.0.0.3/TurnBasedStrategyGame-v.0.0.3.rar" target="_blank">Downloading the latest release</a>
           <h3 class="green">Check The Code</h3>
           <a href="https://github.com/miguelaarrones/TurnBasedStrategyGame" target="_blank">On Github</a>
         </div>
       </div>
-      <!-- <div>
+    </div>
+<!--
+    <div class="content">
+      <div>
         <h2 class="green">Template</h2>
         <div>
           <h3 class="green">Description</h3>
@@ -66,8 +75,8 @@
           <h3 class="green">Check The Code</h3>
           <a href="https://github.com/miguelaarrones/" target="_blank">On Github</a>
         </div>
-      </div> -->
-    </div>
+      </div>
+    </div> -->
   </div>
 </template>
 
@@ -76,17 +85,18 @@
   .projects {
     margin-top: 20px;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: baseline;
     width: 100%;
   }
   .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 100%;
+    width: 33%;
   }
   .content div {
-    flex-basis: 30%;
+    flex-basis: 100%;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;

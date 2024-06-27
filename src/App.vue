@@ -1,6 +1,7 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView,useRoute } from 'vue-router'
 import AboutMe from '@/components/AboutMe.vue'
+const location = useRoute();
 </script>
 
 <template>
@@ -9,8 +10,8 @@ import AboutMe from '@/components/AboutMe.vue'
 
     <div class="wrapper">
       <AboutMe/>
-
       <nav>
+        <RouterLink v-if="location.path !== '/home'" style="margin-right: 10px;" to="/home" tag="button">X</RouterLink>
         <RouterLink to="/work">Work Experience</RouterLink>
         <RouterLink to="/projects">Projects</RouterLink>
         <RouterLink to="/skills">Skills</RouterLink>
