@@ -3314,3 +3314,7 @@ input, select, textarea {
 			}
 
 	}
+
+.project-links a {
+	color: #5ccfb1;
+}
